@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # --- Chargement du modèle ---
-with open("modele_football_calibre.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     model = pickle.load(f)
 
 # --- Fonction de prédiction ---
